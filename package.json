@@ -1,12 +1,17 @@
 {
   "name": "env-form",
-  "displayName": "env form",
+  "displayName": "Env Form",
   "description": "A visual editor for .env files that replaces raw text with a clean, user-friendly form interface.",
+  "icon": "assets/logo.png",
+  "publisher": "NgodingCik",
   "version": "1.0.0",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.116.0"
   },
   "categories": [
+    "Formatters",
+    "Visualization",
     "Other"
   ],
   "activationEvents": [],
