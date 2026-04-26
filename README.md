@@ -12,7 +12,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/NgodingWok/env-form">
+  <a href="https://github.com/NgodingCik/env-form">
     <img src="assets/logo.png" alt="Project Preview" width="300" height="300">
   </a>
 
@@ -24,9 +24,9 @@
     <a href="docs"><strong>Read Documentation »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/NgodingWok/env-form/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/NgodingCik/env-form/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/NgodingWok/env-form/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/NgodingCik/env-form/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
     &middot;
     <a href="https://discord.ngodingcik.my.id">Join Community</a>
   </p>
@@ -56,7 +56,7 @@ Distributed under the **MIT** license. See [LICENSE.md](LICENSE.md) for more inf
 
 Feel free to reach out or follow the project:
 
-**Main Project Link:** [https://github.com/NgodingWok/env-form](https://github.com/NgodingWok/env-form)
+**Main Project Link:** [https://github.com/NgodingCik/env-form](https://github.com/NgodingCik/env-form)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,21 +64,21 @@ Feel free to reach out or follow the project:
 
 A huge thank you to the amazing individuals who have contributed code, ideas, or moral support to this project. This wouldn't have been possible without you!
 
-<a href="https://github.com/NgodingWok/env-form/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NgodingWok/env-form" alt="Contributors" />
+<a href="https://github.com/NgodingCik/env-form/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NgodingCik/env-form" alt="Contributors" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[contributors-url]: https://github.com/NgodingWok/env-form/graphs/contributors
-[forks-url]: https://github.com/NgodingWok/env-form/network/members
-[stars-url]: https://github.com/NgodingWok/env-form/stargazers
-[issues-url]: https://github.com/NgodingWok/env-form/issues
-[license-url]: https://github.com/NgodingWok/env-form/blob/main/LICENSE.md
-[Changelog-url]: https://github.com/NgodingWok/env-form/blob/main/CHANGELOG.md
+[contributors-url]: https://github.com/NgodingCik/env-form/graphs/contributors
+[forks-url]: https://github.com/NgodingCik/env-form/network/members
+[stars-url]: https://github.com/NgodingCik/env-form/stargazers
+[issues-url]: https://github.com/NgodingCik/env-form/issues
+[license-url]: https://github.com/NgodingCik/env-form/blob/main/LICENSE.md
+[Changelog-url]: https://github.com/NgodingCik/env-form/blob/main/CHANGELOG.md
 
-[contributors-shield]: https://img.shields.io/github/contributors/NgodingWok/env-form.svg?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/NgodingWok/env-form.svg?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/NgodingWok/env-form.svg?style=for-the-badge
-[issues-shield]: https://img.shields.io/github/issues/NgodingWok/env-form.svg?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/NgodingWok/env-form.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/NgodingCik/env-form.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/NgodingCik/env-form.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/NgodingCik/env-form.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/NgodingCik/env-form.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/NgodingCik/env-form.svg?style=for-the-badge
