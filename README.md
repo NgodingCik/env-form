@@ -1,71 +1,84 @@
-# env-form README
+<a id="readme-top"></a>
 
-This is the README for your extension "env-form". After writing up a brief description, we recommend including the following sections.
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
+
+</div>
+
+<br />
+<div align="center">
+  <a href="https://github.com/NgodingWok/env-form">
+    <img src="assets/logo.png" alt="Project Preview" width="300" height="300">
+  </a>
+
+  <h3 align="center">Env Form</h3>
+
+  <p align="center">
+    A Visual Studio Code extension that provides a user-friendly interface for managing environment variables. Effortlessly create, edit, and organize your .env files directly within your editor.
+    <br />
+    <a href="docs"><strong>Read Documentation »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/NgodingWok/env-form/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/NgodingWok/env-form/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    &middot;
+    <a href="https://discord.ngodingcik.my.id">Join Community</a>
+  </p>
+</div>
+
+## What's New?
+
+- [v1.0.0](CHANGELOG.md#v100) — **Initial Release**: Core features launched, including a streamlined UI for creating, editing, and managing environment variables.
+
+Check the [Changelog](CHANGELOG.md) for a full history of updates and improvements.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **No More Exposed Secrets**: Prevent accidental exposure of sensitive data by managing variables through a secure UI instead of scrolling through plaintext files (perfect for streamers!).
+- **Vercel-inspired Workflow**: Experience a familiar environment variable management system, similar to Vercel, built directly into VS Code.
+- **Safe & Validated Editing**: Modify variables without worrying about syntax errors or broken formatting.
+- **Intuitive UI**: A clean, distraction-free dashboard designed to keep you inside your development workflow.
+- **Import Support**: Seamlessly import existing `.env` files for easy setup.
 
-For example if there is an image subfolder under your extension project workspace:
+## License
 
-\!\[feature X\]\(images/feature-x.png\)
+Distributed under the **MIT** license. See [LICENSE.md](LICENSE.md) for more information.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Requirements
+## Contact
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Feel free to reach out or follow the project:
 
-## Extension Settings
+**Main Project Link:** [https://github.com/NgodingWok/env-form](https://github.com/NgodingWok/env-form)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-For example:
+## Acknowledgments
 
-This extension contributes the following settings:
+A huge thank you to the amazing individuals who have contributed code, ideas, or moral support to this project. This wouldn't have been possible without you!
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+<a href="https://github.com/NgodingWok/env-form/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NgodingWok/env-form" alt="Contributors" />
+</a>
 
-## Known Issues
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+[contributors-url]: https://github.com/NgodingWok/env-form/graphs/contributors
+[forks-url]: https://github.com/NgodingWok/env-form/network/members
+[stars-url]: https://github.com/NgodingWok/env-form/stargazers
+[issues-url]: https://github.com/NgodingWok/env-form/issues
+[license-url]: https://github.com/NgodingWok/env-form/blob/main/LICENSE.md
+[Changelog-url]: https://github.com/NgodingWok/env-form/blob/main/CHANGELOG.md
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[contributors-shield]: https://img.shields.io/github/contributors/NgodingWok/env-form.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/NgodingWok/env-form.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/NgodingWok/env-form.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/NgodingWok/env-form.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/NgodingWok/env-form.svg?style=for-the-badge
