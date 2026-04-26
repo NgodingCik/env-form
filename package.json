@@ -2,7 +2,7 @@
   "name": "env-form",
   "displayName": "env form",
   "description": "A visual editor for .env files that replaces raw text with a clean, user-friendly form interface.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.116.0"
   },
