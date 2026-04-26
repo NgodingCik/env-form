@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --foreground: #FAF9F6;
+  --background: #262626;
+}
+
+* {
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+body {
+  color: var(--foreground);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  button:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+    opacity: 80%;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  label:has(input[type="checkbox"]) {
+    @apply select-none;
+  }
+
+  .focused-area {
+    @apply border-2 border-dashed border-orange-500 p-2;
+  }
+  .focused-area > * {
+    @apply !opacity-100;
+  }
+
+  *:has(.focused-area) > *:not(:has(.focused-area)):not(.focused-area):not(.swal2-container) {
+    @apply opacity-30 pointer-events-none select-none transition-opacity duration-300 ease-in-out;
+  }
+}
+
+@layer utilities {
+  #drop-overlay {
+    transition: opacity 0.2s ease;
+  }
+
+  #drop-overlay:not(.hidden) {
+    animation: drop-pulse 1.5s ease-in-out infinite;
+  }
+
+  @keyframes drop-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+  }
+
+  #add-modal:not(.hidden) {
+    animation: modal-in 0.15s ease-out;
+  }
+
+  @keyframes modal-in {
+    from {
+      opacity: 0;
+      transform: scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  input[readonly] {
+    cursor: not-allowed;
+  }
+}
