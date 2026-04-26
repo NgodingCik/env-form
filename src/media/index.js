@@ -253,7 +253,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const eqIdx = trimmed.indexOf('=');
             if (eqIdx === -1) continue;
             const key = trimmed.substring(0, eqIdx).trim();
-            const value = trimmed.substring(eqIdx + 1);
+            const raw = trimmed.substring(eqIdx + 1);
+            const value = raw.match(/^"(.*)"$/s) ? raw.slice(1, -1).replace(/\\"/g, '"') : raw;
             if (!key) continue;
             entries.push({ key, value, comment: pendingComment || undefined, hidden: true });
             pendingComment = '';
@@ -271,7 +272,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return entries.map((entry) => {
             let line = '';
             if (entry.comment) line += `# ${entry.comment}\n`;
-            line += `${entry.key}=${entry.value}`;
+
+            const needsQuotes = /[\s"'`#]|^\s*$/.test(entry.value) && entry.value.length > 0;
+            const value = needsQuotes ? `"${entry.value.replace(/"/g, '\\"')}"` : entry.value;
+
+            line += `${entry.key}=${value}`;
             return line;
         }).join('\n');
     }
