@@ -34,6 +34,8 @@
 
 ## What's New?
 
+- [v1.0.1](CHANGELOG.md#101---2026-04-27) — **Bug Fixes**: Includes missing files and resolves issues with the extension not loading properly.
+
 - [v1.0.0](CHANGELOG.md#100---2026-04-27) — **Initial Release**: Core features launched, including a streamlined UI for creating, editing, and managing environment variables.
 
 Check the [Changelog](CHANGELOG.md) for a full history of updates and improvements.
