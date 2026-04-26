@@ -12,6 +12,27 @@
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
+    "customEditors": [
+      {
+        "viewType": "envForm.customEditor",
+        "displayName": "Env Editor",
+        "selector": [
+          {
+            "filenamePattern": "*.env"
+          },
+          {
+            "filenamePattern": "*.env.*"
+          },
+          {
+            "filenamePattern": ".env"
+          },
+          {
+            "filenamePattern": ".env.*"
+          }
+        ],
+        "priority": "default"
+      }
+    ],
     "commands": [
       {
         "command": "env-form.helloWorld",
