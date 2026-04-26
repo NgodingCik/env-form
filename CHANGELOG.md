@@ -6,4 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+### Added
+
+- Main env editor provider
+- Tailwind CSS as style framework
+- Import .env file
+- UI/UX like Vercel's env manager
+
+## [1.0.0] - 2026-04-27
+
+### Added
+- Initial release of the "env-form" extension
