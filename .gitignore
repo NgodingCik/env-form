@@ -3,3 +3,8 @@ dist
 node_modules
 .vscode-test/
 *.vsix
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
