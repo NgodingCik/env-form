@@ -82,7 +82,7 @@ export class EnvEditorProvider implements vscode.CustomTextEditorProvider {
 
     if (uris && uris[0]) {
       const data = await vscode.workspace.fs.readFile(uris[0]);
-      const text = Buffer.from(data).toString("utf8");
+      const text = new TextDecoder().decode(data);
       webview.postMessage({ type: "importedEnv", text });
     }
   }
@@ -98,7 +98,7 @@ export class EnvEditorProvider implements vscode.CustomTextEditorProvider {
       "index.html"
     );
     const htmlBytes = await vscode.workspace.fs.readFile(htmlPath);
-    let htmlText = Buffer.from(htmlBytes).toString("utf8");
+    let htmlText = new TextDecoder().decode(htmlBytes);
 
     const cssUri = webview.asWebviewUri(
       vscode.Uri.joinPath(this.context.extensionUri, "src/media", "index.css")
