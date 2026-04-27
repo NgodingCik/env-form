@@ -16,6 +16,7 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "browser": "./dist/web/extension.js",
   "contributes": {
     "customEditors": [
       {
@@ -59,7 +60,10 @@
     "lint": "eslint src",
     "test": "vscode-test",
     "tailwindcss": "npx tailwindcss -i src/index.css -o src/media/index.css --watch",
-    "build:tailwindcss": "npx tailwindcss -i src/index.css -o src/media/index.css --minify"
+    "build:tailwindcss": "npx tailwindcss -i src/index.css -o src/media/index.css --minify",
+    "compile-web": "npm run check-types && node esbuild.js --web",
+    "watch-web": "node esbuild.js --web --watch",
+    "package-web": "npm run check-types && node esbuild.js --web --production"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.4",
