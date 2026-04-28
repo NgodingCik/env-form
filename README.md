@@ -32,6 +32,12 @@
   </p>
 </div>
 
+<br />
+
+<div align="center">
+  <img src="assets/preview.gif" alt="Project Preview" width="500" height="250">
+</div>
+
 ## What's New?
 
 - [v1.0.2](CHANGELOG.md#102---2026-05-01) — **Platform Support**: Added support for VS Code Web.
